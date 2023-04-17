@@ -1,0 +1,49 @@
+.Container {
+    margin-top: 6rem;
+    text-align: center;
+
+    @media screen and (max-width: 720px) {
+        margin-top: 7rem;
+    }
+}
+.Order {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    gap: 2rem;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.OrderSummary {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.OrderSummary h4, .OrderSummary h3 {
+    text-align: center;
+    margin: 0;
+    margin-top: 0.4rem;
+}
+
+.OrderDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.OrderDetail p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.OrderProducts{
+    display: flex;
+    gap: 0.5rem;
+}

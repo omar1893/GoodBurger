@@ -1,0 +1,32 @@
+.Container {
+    margin-top: 6rem;
+    text-align: center;
+
+    @media screen and (max-width: 720px) {
+        margin-top: 7rem;
+    }
+}
+
+.ProductContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 1rem;
+}
+
+.Summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    gap: 0.5rem;
+}
+
+.Summary span{
+    font-weight: bold;
+}

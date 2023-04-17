@@ -1,0 +1,25 @@
+.PillContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+.Pill {
+    border: none;
+    outline: none;
+    border-radius: 1.5rem;
+    padding: 0.8rem;
+    min-width: 5rem;
+}
+
+.PillSelected {
+    border: none;
+    outline: none;
+    border-radius: 1.5rem;
+    padding: 0.8rem;
+    min-width: 5rem;
+    background-color: #66BB6A;
+    font-weight: bold;
+}
